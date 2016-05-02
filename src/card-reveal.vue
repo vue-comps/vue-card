@@ -25,6 +25,7 @@ module.exports =
   data: ->
     style:
       height: 0
+      width: "100%"
       position: "relative"
       top: 0
       opacity: 0
