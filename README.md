@@ -36,7 +36,7 @@ For examples see [`dev/`](https://github.com/vue-comps/vue-card/tree/master/dev)
 Name | type | default | description
 ---:| --- | ---| ---
 z-index | Number | 50 | z-index of the `div`
-transition | String | - | name of a vue transition. [Detailed description](#transition)
+transition | String | "card" | name of a vue transition. [Detailed description](#transition)
 revealStyle | Object / String | {} | style which will be passed down to reavel `div`
 is-opened | Boolean | false | (two-way) set to open / close
 
@@ -99,6 +99,9 @@ enter: function(el,done) {
 ```
 
 ## Changelog
+- 1.1.0  
+set default transition  
+
 - 1.0.0  
 now using vue transitions  
 events are renamed after vue transitions  

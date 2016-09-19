@@ -49,6 +49,9 @@ module.exports =
     zIndex:
       type: Number
       default: 50
+    transition:
+      type: String
+      default: "card"
 
   computed:
     pointer: ->

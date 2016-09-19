@@ -1,6 +1,6 @@
 <template lang="pug">
 .container
-  card(transition="card",reveal-style="background-color:white",v-ref:card)
+  card(reveal-style="background-color:white",v-ref:card)
     img(slot="img" src="http://materializecss.com/images/office.jpg",width=200)
     span(slot="title") Title (click me)
     p Some Content
